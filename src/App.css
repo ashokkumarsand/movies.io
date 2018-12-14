@@ -32,9 +32,11 @@
 }
 
 @media screen and (min-width: 768px) {
-  .app-wrapper {
+  .app-container {
     padding-left: 5%;
     padding-right: 5%;
+    background-color: #212121;
+    height: 100%;
   }
 }
 
@@ -46,6 +48,8 @@
 
 .searchBar {
   display: flex;
+  margin: 10px 0;
+
 }
 
 .search {

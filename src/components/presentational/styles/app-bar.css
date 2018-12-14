@@ -1,0 +1,27 @@
+.app-header {
+    background: #ffffff;
+    display: flex;
+    flex: 1;
+    height: 54px;
+    box-sizing: border-box;
+}
+.nav-item {
+    padding: 16px 6px 16px 10px;
+    display: inline-flex;
+}
+.logo {
+    float: left;
+    height: 24px;
+}
+.brand {
+    display: inline-flex;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+    .app-header {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
