@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "luxon": "^1.8.2",
+    "moviedb": "^0.2.10",
     "office-ui-fabric-react": "^6.112.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",

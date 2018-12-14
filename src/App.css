@@ -30,3 +30,24 @@
     transform: rotate(360deg);
   }
 }
+
+@media screen and (min-width: 768px) {
+  .app-wrapper {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+.app-wrapper {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+.searchBar {
+  display: flex;
+}
+
+.search {
+  flex: 1;
+}
