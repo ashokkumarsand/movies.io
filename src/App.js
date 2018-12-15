@@ -18,7 +18,7 @@ class App extends Component {
   }
 
   onSearchSubmit(value) {
-      this.props._search(api, value);
+      this.props._search(api.discoverMovie, value);
   }
 
   render() {
